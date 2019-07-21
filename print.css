@@ -1,0 +1,19 @@
+body {
+  font-size: 14px;
+}
+body .toolbar {
+  padding: 10px;
+  position: unset;
+}
+body .content {
+  margin: 0;
+  padding: 0 20px;
+}
+body .content .introduction {
+  font-size: 16px;
+}
+body .content img {
+  width: 200px;
+}
+
+/*# sourceMappingURL=print.css.map */

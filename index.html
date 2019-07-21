@@ -1,5 +1,93 @@
-<script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+<head>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" type="text/css" href="print.css" media="print" />
+    <link href="https://fonts.googleapis.com/css?family=Source+Serif+Pro&display=swap" rel="stylesheet" />
+    <title>Magdalena Houška</title>
+    <meta charset="UTF-8">
+</head>
+<body>
+    <div id="app">
+            <div class="toolbar">{{title}}</div>
+            <div class="content">
+                <h1>Curriculum Vitae</h1>
 
-<div id="app">
-    {{ message }}
-  </div>
+                <div class="first-chapter">
+                    <div class="contact-info">
+                        <h4>Address</h4>
+                        <span>Kantorvænget 11, 2. sal, 247  </span>
+                        <span>8240 Risskov</span>
+                        <h4>Phone number</h4>
+                        <span>+45 91 63 73 09</span>
+                        <h4>Email address</h4>
+                        <a href="mailto:magdalena.houska@gmail.com">magdalena.houska@gmail.com</a>
+                    </div>
+                <img src="images/me.jpg" />
+                </div>
+            
+                <div class="chapter" >
+                    <div class="introduction">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Sit amet facilisis magna etiam. Laoreet id donec ultrices tincidunt. Gravida neque convallis a cras semper auctor neque vitae. Ut sem viverra aliquet eget. Eget arcu dictum varius duis at consectetur lorem donec massa. Bibendum at varius vel pharetra. Amet est placerat in egestas erat. Morbi tristique senectus et netus. Et malesuada fames ac turpis.
+                    </div>
+                    <!-- <todo-item v-for="item in todos" v-bind:todo="item" v-bind:key="item.id"></todo-item> -->
+                </div>
+                <div class="chapter">
+                    <h2>Competences</h2>
+                    <div>
+                        <span class="bold">Programming languages: </span><span>JavaScript, TypeScript</span>
+                    </div>
+                    <div>
+                        <span class="bold">Frameworks: </span><span>Angular, AngularJS</span>
+                    </div>
+                    <div>
+                        <span class="bold">Methodologies: </span><span>Scrum</span>
+                    </div>
+                </div>
+
+                <div class="chapter">
+                    <h2>Work experience</h2>
+                    <div>
+                        <h4>Systems Engineer</h4>
+                        <h3>Systematic</h3>
+                        <span>Full time from February 2018</span>
+                        <ul>
+                            <li>Frontend development in Angular</li>
+                            <li>SonarQube</li>
+                            <li>Scrum Master</li>
+                            <li>Onboarding courses</li>
+                        </ul>
+                    </div>
+                    <div>
+                        <h4>Student developer</h4>
+                        <h3>Systematic</h3>
+                        <span>August 2014 - February 2018</span>
+                    </div>
+                    <div>
+                        <h3></h3>
+                    </div>
+
+
+                    
+                </div>
+
+                <div class="education">
+                    <h2>Education and courses</h2>
+                    Eu feugiat pretium nibh ipsum consequat nisl vel pretium lectus. Duis convallis convallis tellus id. Ac felis donec et odio. Sed egestas egestas fringilla phasellus faucibus scelerisque eleifend donec. Interdum velit euismod in pellentesque. Vel orci porta non pulvinar. Adipiscing commodo elit at imperdiet dui accumsan. Aliquam etiam erat velit scelerisque in dictum non consectetur. Malesuada nunc vel risus commodo. Etiam tempor orci eu lobortis elementum nibh. At auctor urna nunc id cursus metus aliquam eleifend mi. Gravida dictum fusce ut placerat orci nulla pellentesque dignissim enim.
+                </div>
+
+                <div class="languages">
+                    <h2>Languages</h2>
+                    English, Croatian, Danish, German
+                </div>
+
+                <div class="leisure">
+                    <h2>Leisure</h2>
+                    Bouldering, horseback riding, reading.
+                </div>
+            </div>
+    </div>
+    <script src="vue.js"></script>    
+</body>
+
+
+

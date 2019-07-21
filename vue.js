@@ -1,6 +1,17 @@
 var app = new Vue({
     el: '#app',
     data: {
-      message: 'Hello Vue!'
-    }
-  })
+        title: 'Magdalena Houška',
+        todos: [
+          { id: 0, text: 'Learn JavaScript' },
+          { id: 1, text: 'Learn Vue' },
+          { id: 2, text: 'Build something awesome' }
+        ]
+      }
+  },
+  
+  Vue.component('todo-item', {
+    props: ['todo'],
+    template: '<li>{{todo.text}}</li>'
+    })
+  )

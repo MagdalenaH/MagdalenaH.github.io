@@ -1,0 +1,21 @@
+body {
+    font-size: 14px;
+
+    .toolbar {
+        padding: 10px;
+        position: unset;
+    }
+
+    .content {
+        margin: 0;
+        padding: 0 20px;
+
+        .introduction {
+            font-size: 16px;
+        }
+
+        img {
+            width: 200px;
+        }
+    }
+}
