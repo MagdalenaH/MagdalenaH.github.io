@@ -9,19 +9,21 @@
 <body>
     <div id="app">
             <div class="toolbar">{{title}}</div>
+            <button class="toggle" v-on:click="toggleContactInfo">Toggle Contact Info</button>
+            <div class="contact-info" v-if="contactInfoShown">
+                <h4>Address</h4>
+                <span>Kantorvænget 11, 2. sal, 247  </span>
+                <span>8240 Risskov</span>
+                <h4>Phone number</h4>
+                <span>+45 91 63 73 09</span>
+                <h4>Email address</h4>
+                <a href="mailto:magdalena.houska@gmail.com">magdalena.houska@gmail.com</a>
+            </div>
             <div class="content">
                 <h1>Curriculum Vitae</h1>
 
                 <div class="first-chapter">
-                    <div class="contact-info">
-                        <h4>Address</h4>
-                        <span>Kantorvænget 11, 2. sal, 247  </span>
-                        <span>8240 Risskov</span>
-                        <h4>Phone number</h4>
-                        <span>+45 91 63 73 09</span>
-                        <h4>Email address</h4>
-                        <a href="mailto:magdalena.houska@gmail.com">magdalena.houska@gmail.com</a>
-                    </div>
+                    
                 <img src="images/me.jpg" />
                 </div>
             

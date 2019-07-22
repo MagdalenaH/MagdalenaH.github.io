@@ -8,6 +8,15 @@ body {
 body .bold {
   font-weight: bold;
 }
+body .toggle {
+  margin-top: 70px;
+  height: 50px;
+  width: 250px;
+  border: 2px grey solid;
+}
+body .contact-info {
+  margin-top: 50px;
+}
 body .toolbar {
   width: 100%;
   height: 50px;
@@ -19,6 +28,7 @@ body .toolbar {
   font-size: 1.5em;
   position: fixed;
   top: 0;
+  z-index: 1;
 }
 body .content {
   margin: 50px 20%;

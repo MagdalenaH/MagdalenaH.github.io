@@ -9,6 +9,18 @@ body {
         font-weight: bold;
     }
 
+    .toggle {
+        margin-top: 70px;
+        height: 50px;
+        width: 250px;
+        border: 2px grey solid;
+        // padding: 20px;
+    }
+
+    .contact-info {
+        margin-top: 50px;
+    }
+
     .toolbar {
         width: 100%;
         height: 50px;
@@ -20,6 +32,7 @@ body {
         font-size: 1.5em;
         position: fixed;
         top: 0;
+        z-index: 1;
     }
 
     .content {
